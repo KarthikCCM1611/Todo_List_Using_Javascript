@@ -1,0 +1,34 @@
+body{
+    height: 700px;
+}
+#mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+#inputText, #searchInput{
+    width: 250px;
+    height: 25px;
+}
+#container{
+    box-shadow: 0 8px 24px 0;
+    padding: 10px;
+    margin: 10px;
+    min-width: 400px;
+    display: inline;
+    text-align: center;
+}
+li{
+    list-style: none;
+    padding: 5px;
+}
+ul>div{
+    display: flex;
+    justify-content: space-between;
+}
+.editBtn, .deleteBtn, #addBtn{
+    padding: 5px;
+    margin: 5px;
+}
